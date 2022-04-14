@@ -6,8 +6,6 @@ min-height: 200px;
 margin: $center;
 
 .top-boxes{
-
-    
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -39,7 +37,6 @@ margin: $center;
 
     width: $home-form-width;
     height: 60px;
-    background-color: aqua;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
@@ -55,6 +52,11 @@ margin-top: 15px;
         height: 58px;
         
     }
+}
+
+.message-box{
+width: 818px;
+height: 192px;
 }
 
 }

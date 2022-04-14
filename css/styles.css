@@ -7,7 +7,6 @@
 }
 
 html, body {
-  background-color: grey;
   height: 100%;
 }
 
@@ -35,7 +34,9 @@ nav {
 nav .logo {
   width: 92px;
   height: 42px;
-  background-color: blueviolet;
+}
+nav .logo h3 {
+  color: white;
 }
 nav .links a {
   color: #ffffff;
@@ -88,7 +89,6 @@ nav .links span {
 .form-content .select-boxes {
   width: 818px;
   height: 60px;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,8 +111,13 @@ nav .links span {
   width: 103px;
   height: 58px;
 }
+.form-content .message-box {
+  width: 818px;
+  height: 192px;
+}
 
 footer {
+  max-width: 1280px;
   margin: 0 auto;
   height: 50px;
   background-color: #79addc;
