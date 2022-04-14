@@ -27,17 +27,27 @@ margin: $center;
         border: 3px solid $site-blue;
         
     }
+
+    i{
+
+        position: relative;
+        z-index: -50;
+    }
 }
 
 .select-boxes{
 
     width: $home-form-width;
-    height: 70px;
+    height: 60px;
     background-color: aqua;
     display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+h3{
+margin-top: 15px;
     align-items: center;
-    justify-content: space-between;
-
+}
 
     select{
         display: flex;

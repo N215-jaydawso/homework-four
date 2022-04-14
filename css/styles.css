@@ -81,19 +81,28 @@ nav .links span {
   padding-left: 10px;
   border: 3px solid #79addc;
 }
+.form-content .top-boxes i {
+  position: relative;
+  z-index: -50;
+}
 .form-content .select-boxes {
   width: 818px;
-  height: 70px;
+  height: 60px;
   background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.form-content .select-boxes h3 {
+  margin-top: 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .form-content .select-boxes select {
   display: -webkit-box;
@@ -101,4 +110,20 @@ nav .links span {
   display: flex;
   width: 103px;
   height: 58px;
+}
+
+footer {
+  margin: 0 auto;
+  height: 50px;
+  background-color: #79addc;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
