@@ -1,4 +1,5 @@
 * {
+  font-family: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -79,4 +80,25 @@ nav .links span {
   height: 58px;
   padding-left: 10px;
   border: 3px solid #79addc;
+}
+.form-content .select-boxes {
+  width: 818px;
+  height: 70px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .select-boxes select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 103px;
+  height: 58px;
 }
